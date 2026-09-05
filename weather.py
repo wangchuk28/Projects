@@ -36,7 +36,10 @@ class WeatherApp(QWidget):
         self.weather_button.setObjectName("weather_button")
         self.temperature_label.setObjectName("temperature_label")
 
-        self.setStyleSheet("""
+ #CSS       
+ 
+            
+        self.setStyleSheet("""                                          
              QPushButton#weather_button{
                     font-family: Arial;
                     font-size: 20px;
