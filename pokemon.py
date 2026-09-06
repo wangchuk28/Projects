@@ -7,7 +7,7 @@ from PyQt5.QtGui import QPixmap, QPainter
 BASE_URL = "https://pokeapi.co/api/v2/pokemon/"
 
 
-class PokemonDetails(QWidget):
+class PokemonDetails(QWidget): 
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Pokemon Details")
